@@ -34,7 +34,8 @@ span{
 }
 
 .num-of-characters {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    width: 200px;
 }
 
 .passwordCard {
@@ -160,7 +161,7 @@ span{
         flex-direction: column;
         height: 700px;
         width: 70%;
-        margin: 10vh auto 0;
+        margin: 0 auto;
         padding: 0 50px;    
         border: 3px solid #32CD32;
         border-radius: 25px;
