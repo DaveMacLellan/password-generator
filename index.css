@@ -161,7 +161,7 @@ span{
     .passwordCard {
         display: flex;
         flex-direction: column;
-        height: 615px;
+        height: 625px;
         width: 70%;
         margin: 0 auto;
         padding: 0 50px;    
