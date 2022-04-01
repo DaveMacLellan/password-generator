@@ -113,11 +113,6 @@ span{
     font-size: 16px;
 }
 
-@media screen and (orientation:landscape) {
-    .card-sub-text {
-        display: none;
-    }
-}
 
 @media (max-width: 650px) {
     h1 {
@@ -188,9 +183,5 @@ span{
         outline: none;
         margin-bottom: 5px;
         -webkit-appearance: none;
-    }
-
-    .card-sub-text {
-        display: none;
     }
 }
