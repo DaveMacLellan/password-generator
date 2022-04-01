@@ -50,6 +50,7 @@ function copyPassword(passItem) {
 
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(passItem.value);
+    document.execCommand('copy');
     
     /* Alert the copied text */
     alert("Copied the password: " + passItem.value);
