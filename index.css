@@ -25,7 +25,7 @@ textarea {
     height: 20px;
     overflow: hidden;
     color: white;
-    font-size: 1rem;
+    font-size: 0.95rem;
     resize: none;
 }
 
@@ -122,7 +122,7 @@ span{
         height: 40px;
         overflow: hidden;
         color: white;
-        font-size: 1rem;
+        font-size: 0.8rem;
         resize: none;
     }
 
@@ -145,7 +145,8 @@ span{
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
     }
 
     textarea {
@@ -159,7 +160,7 @@ span{
     .passwordCard {
         display: flex;
         flex-direction: column;
-        height: 700px;
+        height: 600px;
         width: 70%;
         margin: 0 auto;
         padding: 0 50px;    
@@ -181,5 +182,9 @@ span{
         outline: none;
         margin-bottom: 5px;
         -webkit-appearance: none;
+    }
+
+    .card-sub-text {
+        display: none;
     }
 }
